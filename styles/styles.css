@@ -1,0 +1,36 @@
+body {
+    background: rgb(79, 133, 102);
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    background: rgb(157, 199, 157);
+    font-size: 24px; 
+    color: green;
+}
+
+td {
+    border: 2px solid green;
+    padding: 10px;
+}
+
+.image{
+    width: 300px; 
+    border: 2px solid green;
+}
+
+.catcat {
+    background: rgba(66, 172, 80, 0.548);
+}
+
+.cat {
+    background: rgb(206, 226, 215);
+}
+
+.cat-font {
+    font-size: 36px;
+    color: brown;
+    font-weight: bold;
+}
