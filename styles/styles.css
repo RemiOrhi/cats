@@ -16,21 +16,25 @@ td {
     padding: 10px;
 }
 
-.image{
+td > img{
     width: 300px; 
-    border: 2px solid green;
 }
 
-.catcat {
+td > img:hover {
+    outline: 2px solid brown;
+}
+
+table tr:first-of-type{
     background: rgba(66, 172, 80, 0.548);
-}
-
-.cat {
-    background: rgb(206, 226, 215);
-}
-
-.cat-font {
     font-size: 36px;
     color: brown;
     font-weight: bold;
+}
+
+table tr:nth-child(2){
+    background: rgb(206, 226, 215);
+}
+
+table tr:nth-child(5){
+    background: rgb(206, 226, 215);
 }
